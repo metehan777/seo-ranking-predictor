@@ -56,5 +56,6 @@ A comprehensive SEO analytics platform that tracks, analyzes, and predicts searc
 Create a `.env` file in the backend directory with the following variables:
 
 # Flask configuration
-DEBUG=True
-SECRET_KEY=your_secure_secret_ 
+```DEBUG=True
+SECRET_KEY=your_secure_secret_
+```
