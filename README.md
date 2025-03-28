@@ -3,7 +3,7 @@
 A comprehensive SEO analytics platform that tracks, analyzes, and predicts search ranking changes over time using AI-powered insights.
 
 - You can follow me on X [https://x.com/metehan777](https://x.com/metehan777)
-- You can read posts on [https://metehan.ai](https://metehan.ai)
+- You can read the blog post on [https://metehan.ai/blog/how-to-set-up-an-ai-powered-seo-ranking-predictor-less-than-10/](https://metehan.ai/blog/how-to-set-up-an-ai-powered-seo-ranking-predictor-less-than-10/)
 - You can subscribe on [https://metehanai.substack.com/](https://metehanai.substack.com)
 
 
