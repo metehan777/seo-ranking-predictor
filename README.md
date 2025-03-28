@@ -24,14 +24,15 @@ A comprehensive SEO analytics platform that tracks, analyzes, and predicts searc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/ranking-flux-system.git
-   cd ranking-flux-system
+   git clone [[https://github.com/yourusername/ranking-flux-system.git](https://github.com/metehan777/seo-ranking-predictor.git)](https://github.com/metehan777/seo-ranking-predictor.git)
+   cd seo-ranking-predictor
    ```
 
 2. **Set up the backend**
    ```bash
    cd backend
    pip install -r requirements.txt
+   python3 app.py
    
    # Create .env file with your API keys
    cp .env.example .env
@@ -42,6 +43,7 @@ A comprehensive SEO analytics platform that tracks, analyzes, and predicts searc
    ```bash
    cd ../frontend
    npm install
+   npm run dev
    ```
 
 ### Configuration
