@@ -2,6 +2,11 @@
 
 A comprehensive SEO analytics platform that tracks, analyzes, and predicts search ranking changes over time using AI-powered insights.
 
+- You can follow me on X [https://x.com/metehan777](https://x.com/metehan777)
+- You can read posts on [https://metehan.ai](https://metehan.ai)
+- You can subscribe on [https://metehanai.substack.com/](https://metehanai.substack.com)
+
+
 ## Features
 
 - **Keyword Tracking**: Monitor important keywords for your business
@@ -24,7 +29,7 @@ A comprehensive SEO analytics platform that tracks, analyzes, and predicts searc
 
 1. **Clone the repository**
    ```bash
-   git clone [[https://github.com/yourusername/ranking-flux-system.git](https://github.com/metehan777/seo-ranking-predictor.git)](https://github.com/metehan777/seo-ranking-predictor.git)
+   git clone [https://github.com/metehan777/seo-ranking-predictor.git](https://github.com/metehan777/seo-ranking-predictor.git)]
    cd seo-ranking-predictor
    ```
 
