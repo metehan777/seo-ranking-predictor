@@ -29,7 +29,7 @@ A comprehensive SEO analytics platform that tracks, analyzes, and predicts searc
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/metehan777/seo-ranking-predictor.git](https://github.com/metehan777/seo-ranking-predictor.git)]
+   git clone https://github.com/metehan777/seo-ranking-predictor.git
    cd seo-ranking-predictor
    ```
 
