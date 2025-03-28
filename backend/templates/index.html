@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Ranking Flux System</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        h2 {
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4b6cb7;
+            color: #182848;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+        .version {
+            font-size: 0.9em;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .endpoint {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #4b6cb7;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .path {
+            font-family: monospace;
+            font-size: 1.1em;
+            font-weight: bold;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        .methods {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        .method {
+            padding: 4px 8px;
+            font-size: 0.8em;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .get {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+        .post {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .description {
+            margin-top: 10px;
+            color: #555;
+        }
+        .frontend-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            background-color: #4b6cb7;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .frontend-link:hover {
+            background-color: #182848;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Predictive Ranking Flux System</h1>
+        <div class="subtitle">Monitor and predict ranking changes for your SEO strategy</div>
+        <div class="version">API v{{ version }}</div>
+    </header>
+
+    <main>
+        <h2>API Documentation</h2>
+        <p>
+            This API provides endpoints to monitor and predict ranking changes in search engine results.
+            Use these endpoints to manage keywords, track rankings, and get predictions.
+        </p>
+
+        <h2>Available Endpoints</h2>
+        
+        {% for endpoint in endpoints %}
+        <div class="endpoint">
+            <div class="path">{{ endpoint.path }}</div>
+            <div class="methods">
+                {% for method in endpoint.methods %}
+                <span class="method {{ method.lower() }}">{{ method }}</span>
+                {% endfor %}
+            </div>
+            <div class="description">{{ endpoint.description }}</div>
+        </div>
+        {% endfor %}
+
+        <a href="http://localhost:5173" class="frontend-link">Open Dashboard</a>
+    </main>
+
+    <footer>
+        <p>Predictive Ranking Flux System &copy; {{ year }}</p>
+    </footer>
+</body>
+</html> 

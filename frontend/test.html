@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Test</title>
+</head>
+<body>
+  <h1>API Test</h1>
+  <button id="testBtn">Test API</button>
+  <pre id="result"></pre>
+
+  <script>
+    document.getElementById('testBtn').addEventListener('click', async () => {
+      try {
+        const response = await fetch('http://localhost:5000/api/keywords');
+        const data = await response.json();
+        document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+      } catch (error) {
+        document.getElementById('result').textContent = error.toString();
+      }
+    });
+  </script>
+</body>
+</html> 

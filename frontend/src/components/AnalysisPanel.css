@@ -1,0 +1,37 @@
+.analysis-panel {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-panel h2 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.analysis-section {
+  margin-bottom: 20px;
+}
+
+.analysis-section h3 {
+  color: #4a6cf7;
+  margin-bottom: 10px;
+}
+
+.analysis-section ul {
+  padding-left: 20px;
+}
+
+.analysis-section li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.no-data {
+  color: #777;
+  font-style: italic;
+} 
